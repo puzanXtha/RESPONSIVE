@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+:root {
+  --DodgerBlue: #1e90ff;
+  --RoyalBlue: #4169e1;
+  --CornflowerBlue: #6495ed;
+  --SkyBlue: #87ceeb;
+  --SteelBlue: #4682b4;
+  --NavyBlue: #000080;
+  --Cerulean: #007ba7;
+}
+
+h1 {
+  font-family: "Vina Sans", cursive;
+}
+.navbar > .container {
+  background-color: var(--DodgerBlue) !important;
+  padding: 1.2rem;
+  color: white !important;
+}
+.hero-section .container {
+  padding: 0px;
+}
+.nav-item > a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+.nav-item > a:hover {
+  color: var(--Cerulean);
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-brand:hover {
+  color: rgb(112, 216, 171);
+}
+.nav-brand {
+  color: yellow;
+}
+.student {
+  width: 20vw !important;
+}
+.custom-card {
+  height: 250px;
+  /* border: 2px solid gray; */
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0.2, 0.7);
+}
+.card-title,
+.card-text {
+  text-align: center;
+}
+.flex-sections {
+  padding: 0px;
+}
+.questions {
+  margin-top: 50px;
+  z-index: -1;
+  position: relative;
+}
+.card-hover-effect {
+  transition: all 0.4s ease-in-out;
+}
+.card-hover-effect:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+}
+.contacts {
+  background-color: whitesmoke;
+}
+.contacts .phone:hover {
+  transform: scale(1.1);
+}
+.contacts .email:hover {
+  transform: scale(1.1);
+}
+.contacts .location:hover {
+  transform: scale(1.1);
+}
+.footer {
+  background-color: var(--DodgerBlue);
+}

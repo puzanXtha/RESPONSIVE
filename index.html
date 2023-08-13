@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navbar starts -->
+    <nav class="navbar navbar-expand-lg  sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Shree<span class="nav-brand">Yantra</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class=" nav-link active " aria-current="page" href="#"><span class="nav-brand">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>      
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+    <!-- hero-section starts -->
+         <div class="hero-section">
+          .<div class="container">
+             <div class="row d-flex justify-content-start d-md-flex flex-row ">
+              <div class="d-flex align-item-center justify-content-center col-sm-8 col-md-6 col-lg-6 order-1 order-l  order-sm-1  px-4 d-flex flex-column justify-content-center
+               order-md-1">
+                <h1 class="d-inline-block my-3 text-secondary">we provide the content quality high</h1>
+                <p class="d-inline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iusto error dolorum magnam, porro ullam eaque nostrum doloremque quidem consequuntur possimus cumque eos.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi perferendis debitis illum nemo veritatis non ea mollitia expedita! Eum, eaque explicabo.
+                </p>
+             
+              <div class="text-center">
+              <button   data-bs-toggle="tooltip" 
+              data-bs-title="contact now" class="text-center btn btn-warning px-2" ><span class="text-light">click me</span></button>
+             </div></div>
+              <img src="./college.jpg" class="img-fluid col-md-6 " alt="studentimage" width="100%" height="100%" >
+            <!-- main section starts -->
+
+          </div>
+         </div>
+         </div>
+    <!-- hero-section ends -->
+    <br/>
+    <div class="flex-sections container " >
+    <div class="row g-md-3">
+      <div class=" col-12 col-lg-4 col-md-6 ">
+        
+    <div class="card card-hover-effect">
+      <img src="https://picsum.photos/100/100?random=1" class="card-img-top" alt="random-image" height="200px">
+      <div class="card-body">
+        <h3 class="card-title text-secondary">Love</h3>
+        <p class="card-text text-warning">endeavors the beauty in itself.</p>
+      </div>
+      </div>
+    
+    </div>
+    <div class="col-12 col-lg-4 col-md-6 ">
+    <div class="card card-hover-effect">
+      <img src="https://picsum.photos/100/100?random=2" class="card-img-top" alt="..." height="200px" >
+      <div class="card-body">
+        <h3 class="card-title text-secondary">Beauty</h3>
+        <p class="card-text text-warning">Hold up tight.</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 col-md-6 ">
+    <div class="card card-hover-effect" >
+      <img src="https://picsum.photos/100/100?random=3" class="card-img-top" alt="..." height="200px" >
+      <div class="card-body">
+        <h3 class="card-title text-secondary">Compassion</h3>
+        <p class="card-text text-warning">introduce the world</p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- accordion starts -->
+  <div class=" new accord container p-0 my-4">
+    <h1 class="text-center text-secondary" id="about">About the college🏫</h1>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="row">
+        <div class="col-8">
+          <div class="row">
+            <div class="col-12">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <strong class="text-secondary">shreeYantra?</strong>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body ">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOn" aria-expanded="false" aria-controls="flush-collapseOne">
+             <strong class="text-secondary"> Qualities and skills?</strong>
+            </button>
+          </h2>
+          <div id="flush-collapseOn" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body ">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseO" aria-expanded="false" aria-controls="flush-collapseOne">
+              <strong class="text-secondary">programs and seminars?</strong>
+            </button>
+          </h2>
+          <div id="flush-collapseO" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fs-6">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+      </div>
+      </div> 
+    </div>
+      <div class="col-4">
+     <img src="https://picsum.photos/400/300?random=3" class="img-thumbnail" alt="college images"/>
+   </div>
+    </div></div></div> 
+    <br/>
+  <!-- Accordion-ends -->
+  <!-- contact starts -->
+  <!-- .<div class="container-fluid contacts bg-light">
+    <div class="row  position-relative ">
+      <div class="col-4 offset-1 phone">
+        <span class="fs-1 ">📞</span>
+        <h1>phone</h1>
+        <p>Our call representatives are waiting for your call.You may ring us between 9am to 4pm</p>
+        <span>023 – 590949/ 590950</span>
+      </div>
+      <div class="col-4 email  ">
+        <span class="fs-1">📧</span>
+        <h1>email</h1>
+        <p>you may send your email in online support team</p>
+        <span>contact@damaktechnical.edu.np</span>
+      </div>
+      <div class="col-3 location">
+        <span class="fs-1">𖡡</span>
+        <h1>Location</h1>
+        <p>300 Meters South of Sangam Sweet through the Jhapa Model College</p>
+        <span>Damak- 9, Jhapa</span>
+      </div>
+    </div>
+  </div> -->
+  <div class="container contacts" id="contact">
+    <div class="row">
+      <div class="col-12 col-md-4 phone">
+        <div class="card" height="200px">
+          <div class="card-body" >
+            <span class="fs-1 ">📞</span>
+            <h1>phone</h1>
+            <p>Our call representatives are waiting for your call.You may ring us between 9am to 4pm</p>
+            <span>023 – 590949/ 590950</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 email">
+        <div class="card" height="200px">
+          <div class="card-body" >
+            <span class="fs-1">📧</span>
+            <h1>email</h1>
+            <p>you may send your email in online support team</p>
+            <br/>
+            <span>contact@damaktechnical.edu.np</span>
+        </div>
+      </div>
+    </div>
+      <div class="col-12 col-md-4 location">
+        <div class="card"  height="200px">
+          <div class="card-body">
+            <span class="fs-1">𖡡</span>
+            <h1>Location</h1>
+            <p>300 Meters South of Sangam Sweet through the Jhapa Model College</p>
+            
+            <span>Damak- 9, Jhapa</span>
+          </div>
+        </div>
+      </div> 
+  </div>
+  </div>
+  <br/>
+  <!-- footer -->
+  <div class="container footer">
+     <div class="row">
+      <div class="col-12 text-center text-light">
+        All rights @reserve 2023
+      </div>
+     </div>
+  </div>
+
+  
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+  </body>
+</html>
